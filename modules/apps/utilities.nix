@@ -2,6 +2,7 @@
 
 {
   environment.systemPackages = with pkgs; [
+      safe-rm
       fastfetch 
       overskride
       eza
