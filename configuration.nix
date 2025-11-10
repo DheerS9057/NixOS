@@ -14,6 +14,11 @@
     loader.systemd-boot.enable = true;
     loader.efi.canTouchEfiVariables = true;
     loader.timeout = 1;
+    kernelParams = [
+      "acpi_osi=!Windows 2018.2"
+      "udev.log_level=3"
+      "nowatchdog"
+    ];
 
 
     kernelPackages = pkgs.linuxPackages_latest;
