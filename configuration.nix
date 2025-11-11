@@ -36,4 +36,8 @@
       enableAllFirmware = true;
 
     };
+################################
+    powerManagement = {
+      resumeCommands ='' echo "Broooooo Suspend was a success" ''; 
+  };
 }

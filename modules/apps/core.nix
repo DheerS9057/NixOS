@@ -26,5 +26,6 @@
       neovim
       lazygit
       mesa-demos
+      psmisc 
   ];
 }
