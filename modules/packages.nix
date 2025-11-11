@@ -8,7 +8,7 @@
   ./apps/hyprland.nix
   ./apps/ui.nix
   ./apps/utilities.nix
-  ./apps/niri.nix
+#  ./apps/niri.nix
  ];
 ####################################################
  nixpkgs = {
@@ -19,6 +19,7 @@
     firefox.enable = true;
     hyprland.enable = true; 
     thunar.enable = true;
+    niri.enable = true;
   };
 ####################################################
 }
