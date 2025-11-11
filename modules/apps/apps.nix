@@ -5,6 +5,7 @@
       obsidian
       libreoffice
       gimp
-
+      vesktop
+      whatsie
   ];
 }
