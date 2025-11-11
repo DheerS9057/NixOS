@@ -4,7 +4,6 @@
 ########################################
   networking ={
     hostName = "The-Machine";
-    wireless.enable = true;
     networkmanager.enable = true;
   };
 #########################################
