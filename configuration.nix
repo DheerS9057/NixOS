@@ -18,6 +18,7 @@
       "acpi_osi=\"!Windows 2018.2\""
       "udev.log_level=3"
       "nowatchdog"
+      "i915.force_probe=46a3"
     ];
 
 
