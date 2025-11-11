@@ -18,6 +18,6 @@
       pavucontrol
       playerctl
       lact
-      cliphist 
+      cliphist
   ];
 }

@@ -8,6 +8,7 @@
   ./apps/hyprland.nix
   ./apps/ui.nix
   ./apps/utilities.nix
+  ./apps/niri.nix
  ];
 ####################################################
  nixpkgs = {
