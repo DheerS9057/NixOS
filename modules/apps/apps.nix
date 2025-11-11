@@ -6,6 +6,5 @@
       libreoffice
       gimp
       vesktop
-      whatsie
   ];
 }
