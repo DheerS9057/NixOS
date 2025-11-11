@@ -21,6 +21,7 @@
       starship
       kitty
       powertop
+      quickshell
 
   ];
 }
