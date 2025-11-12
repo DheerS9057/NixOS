@@ -15,7 +15,7 @@
     loader.efi.canTouchEfiVariables = true;
     loader.timeout = 1;
     kernelParams = [
-      "acpi_osi=\"!Windows 2018.2\""
+      "acpi_osi=\"!Windows 2018\""
       "udev.log_level=3"
       "nowatchdog"
       "i915.force_probe=46a3"
