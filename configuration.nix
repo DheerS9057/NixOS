@@ -19,6 +19,7 @@
       "udev.log_level=3"
       "nowatchdog"
       "i915.force_probe=46a3"
+      "rcutree.enable_rcu_lazy=1"
     ];
 
 

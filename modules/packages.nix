@@ -20,6 +20,7 @@
     hyprland.enable = true; 
     thunar.enable = true;
     niri.enable = true;
+    fish.enable = true;
   };
 ####################################################
 }

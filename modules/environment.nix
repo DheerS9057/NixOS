@@ -28,6 +28,7 @@
   };
 
   sessionVariables = { LIBVA_DRIVER_NAME = "iHD"; };
+  shells = [ pkgs.fish ];
 };
 #################################################
 fonts = {

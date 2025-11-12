@@ -8,5 +8,6 @@
 
     ];
   };
+  users.defaultUserShell = pkgs.fish;
 }
 
