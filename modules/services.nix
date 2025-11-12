@@ -5,6 +5,18 @@
   networking ={
     hostName = "The-Machine";
     networkmanager.enable = true;
+    firewall = {
+      enable = true;
+
+    # Allow incoming connections for LocalSend
+      allowedTCPPorts = [ 53317 ];
+      allowedUDPPorts = [ 53317 ];
+
+    # Optional: useful if you use multicast discovery
+      allowedUDPPortRanges = [
+        { from = 53317; to = 53317; }
+      ];
+    };
   };
 #########################################
   hardware = {
