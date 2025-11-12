@@ -20,5 +20,7 @@
       lact
       cliphist
       kdePackages.okular
+      localsend
+      ectool
   ];
 }

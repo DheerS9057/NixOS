@@ -27,5 +27,7 @@
       lazygit
       mesa-demos
       psmisc 
+      lm_sensors
+      s-tui
   ];
 }
