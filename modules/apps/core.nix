@@ -29,5 +29,7 @@
       psmisc 
       lm_sensors
       s-tui
+      xarchiver
+      p7zip
   ];
 }

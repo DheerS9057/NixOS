@@ -1,0 +1,18 @@
+{
+    "label" : "logout",
+    "action" : "hyprctl clients -j | jq -r '.[].pid' | xargs kill; pkill Hyprland || pkill sway || pkill niri || loginctl terminate-user $USER",
+    "text" : "logout",
+    "keybind" : "e"
+}
+{
+    "label" : "shutdown",
+    "action" : "hyprctl clients -j | jq -r '.[].pid' | xargs kill; systemctl poweroff || loginctl poweroff",
+    "text" : "Shutdown",
+    "keybind" : "s"
+}
+{
+    "label" : "reboot",
+    "action" : "hyprctl clients -j | jq -r '.[].pid' | xargs kill; systemctl reboot || loginctl reboot",
+    "text" : "restart",
+    "keybind" : "r"
+}

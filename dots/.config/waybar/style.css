@@ -1,0 +1,202 @@
+* {
+  padding: 0;
+  margin: 0;
+  min-height: 0;
+  border-radius: 0;
+  border: none;
+  text-shadow: none;
+  transition: none;
+  box-shadow: none;
+}
+
+window#waybar {
+  background: #282828;
+}
+
+window#waybar.hidden {
+  opacity: 0.5;
+}
+
+/* ================================= */
+/* Base styling for most modules */
+#workspaces button,
+#workspaces button:hover,
+#workspaces button.visible,
+#workspaces button.visible:hover,
+#workspaces button.active,
+#workspaces button.active:hover,
+#workspaces button.urgent,
+#workspaces button.special,
+#workspaces button.special.active,
+#window,
+#tray,
+#backlight,
+#pulseaudio,
+#pulseaudio.muted,
+#battery,
+#battery.critical,
+#battery.warning,
+#clock,
+#power-profiles-daemon,
+#network,
+/*#bluetooth,*/
+#submap {
+  font-family: "JetBrainsMono Nerd Font";
+  font-size: 15px;
+  font-weight: 800;
+  color: #282828;
+}
+
+/* ================================= */
+/* Common margins */
+#window,
+#tray,
+#backlight,
+#pulseaudio,
+#pulseaudio.muted,
+#battery,
+#battery.critical,
+#battery.warning,
+#memory {
+  margin: 0 5px;
+}
+
+/* ================================= */
+/* Tooltip */
+tooltip {
+  background-color: #282828;
+  color: #EBDBB2;
+  padding: 5px 10px;
+  border: 1px solid #504945;
+  border-radius: 2px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+/* ================================= */
+/* Workspaces */
+#workspaces button {
+  color: #EBDBB2;
+  border-radius: 0.7px;
+  margin: 3px 4px;
+  min-width: 30px;
+}
+
+#workspaces button:hover,
+#workspaces button.visible,
+#workspaces button.visible:hover,
+#workspaces button.active,
+#workspaces button.active:hover {
+  background: #83A598;
+}
+
+#workspaces button.urgent {
+  background: #EA6962;
+}
+
+/* Special workspaces */
+#workspaces button.special {
+  background-color: #D65D0E;
+}
+
+#workspaces button.special:hover {
+  background-color: #83A598;
+}
+
+#workspaces button.special.active {
+  background-color: #FE8019;
+}
+
+#workspaces button.special.active:hover {
+  background-color: #83A598;
+}
+
+/* ================================= */
+/* Window title */
+#window {
+  color: #282828;
+  background: #83A598;
+  border-radius: 0.7px;
+  margin: 4px 3px 4px 5px;
+  padding: 0 5px;
+}
+
+window#waybar.empty #window {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  color: transparent;
+}
+
+/* ================================= */
+/* Modules color accents */
+#backlight {
+  color: #D8A657;
+}
+
+#pulseaudio {
+  color: #83A598;
+}
+
+#pulseaudio.muted {
+  color: #EA6962;
+}
+
+#battery {
+  color: #B8BB26;
+}
+
+#battery.critical {
+  color: #CC241D;
+}
+
+#battery.warning {
+  color: #FE8019;
+}
+
+#battery.full {
+  color: #B8BB26;
+}
+
+#battery.charging,
+#battery.plugged {
+  color: #98971A;
+}
+
+#battery.charging.warning {
+  color: #D79921;
+}
+
+#battery.charging.critical {
+  color: #CC241D;
+}
+
+#clock {
+  color: #8EC07C;
+}
+
+#power-profiles-daemon {
+  color: #D3869B;
+  padding: 0 2px;
+}
+
+#submap {
+  background: #D79921;
+  margin: 4px 3px;
+  padding: 0 4px;
+}
+
+/* ================================= */
+#network {
+  color: #8EC07C;
+  margin: 4px 10px 4px 4px;
+  font-size: 15px;
+  padding: 0 4px;
+}
+
+/* #bluetooth {
+  color: #98971A;
+  font-size: 17px;
+  margin: 0 10px 0 0;
+  padding: 0 4px;
+} */
+
