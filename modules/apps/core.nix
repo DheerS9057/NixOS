@@ -31,5 +31,7 @@
       s-tui
       xarchiver
       p7zip
+      acpica-tools
+      
   ];
 }
