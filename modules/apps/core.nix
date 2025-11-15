@@ -33,7 +33,7 @@
       p7zip
       acpica-tools
       imagemagick
-      
+      python313Packages.pip
       
   ];
 }

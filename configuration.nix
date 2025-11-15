@@ -47,4 +47,7 @@
     powerManagement = {
       resumeCommands ='' echo "Broooooo Suspend was a success" ''; 
   };
+##################################
+
+###################################
 }
