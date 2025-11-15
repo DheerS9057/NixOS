@@ -17,6 +17,8 @@
         { from = 53317; to = 53317; }
       ];
     };
+    networkmanager.wifi.powersave = true;
+
   };
 #########################################
   hardware = {

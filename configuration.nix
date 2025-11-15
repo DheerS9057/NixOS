@@ -20,6 +20,12 @@
       "nowatchdog"
       "i915.force_probe=46a3"
       "rcutree.enable_rcu_lazy=1"
+      "i2c_designware.legacy_irq=0"
+      "psmouse.synaptics_intertouch=1"
+      "i915.enable_dc=1"
+          "i915.enable_psr=1"
+      "i915.fastboot=1"
+      "i915.enable_dpcd_backlight=1"
     ];
 
 
