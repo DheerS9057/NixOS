@@ -23,9 +23,9 @@
       "i2c_designware.legacy_irq=0"
       "psmouse.synaptics_intertouch=1"
       "i915.enable_dc=1"
-          "i915.enable_psr=1"
+      "i915.enable_psr=1"
       "i915.fastboot=1"
-      "i915.enable_dpcd_backlight=1"
+     # "i915.enable_dpcd_backlight=1"
     ];
 
 

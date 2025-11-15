@@ -32,10 +32,14 @@
   #PowerProfileCTL
   power-profiles-daemon.enable = true;
   upower.enable = true;
-  logind.settings.Login.HandleLidSwitch = "lock";
-  logind.settings.Login.HandleLidSwitchExternalPower = "ignore";
-  logind.settings.Login.HandleLidSwitchDocked = "ignore";
-
+  #
+  logind.settings.Login = {
+        HandleLidSwitch = "lock";
+        HandleLidSwitchExternalPower = "ignore";
+        HandleLidSwitchDocked = "ignore";
+        HandlePowerKey="lock";
+    };
+  #  
   udisks2.enable = true;
   
   xserver.xkb = {

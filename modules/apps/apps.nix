@@ -6,5 +6,6 @@
       libreoffice
       gimp
       vesktop
+      tty-clock
   ];
 }
