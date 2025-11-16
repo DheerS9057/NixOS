@@ -1,4 +1,4 @@
-{ pkgs, ... }:
+{ pkgs, config, ... }:
 
 {
   environment.systemPackages = with pkgs; [
@@ -15,4 +15,25 @@
       libsForQt5.qt5.qtmultimedia
       xfce.tumbler
   ];
+  fonts.packages = with pkgs; [
+  noto-fonts
+  noto-fonts-cjk-sans
+  noto-fonts-color-emoji
+  liberation_ttf
+  dejavu_fonts
+  freefont_ttf
+  corefonts
+  vista-fonts
+];
+
+fonts.fontconfig = {
+  enable = true;
+  antialias = true;
+  hinting.enable = true;
+  hinting.style = "full";
+  subpixel.rgba = "rgb";
+};
+
+
+
 }

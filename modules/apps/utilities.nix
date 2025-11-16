@@ -22,9 +22,6 @@
       kdePackages.okular
       localsend
       ectool
-      mariadb
-      mysql80
-      libmysqlclient_3_2
       xournalpp
 
 
