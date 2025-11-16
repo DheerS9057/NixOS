@@ -48,6 +48,6 @@
       resumeCommands ='' echo "Broooooo Suspend was a success" ''; 
   };
 ##################################
-
+documentation.man.generateCaches = false;
 ###################################
 }
