@@ -8,7 +8,6 @@
       gcc
       nodejs
       curl
-      python3
       bat
       wget
       gnumake
@@ -34,6 +33,10 @@
       acpica-tools
       imagemagick
       python313Packages.pip
+      (python3.withPackages (ps: [
+        ps.mysql-connector
+        ps.tabulate
+      ]))
       
   ];
 }
