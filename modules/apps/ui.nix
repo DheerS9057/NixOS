@@ -14,6 +14,7 @@
       libsForQt5.qt5.qtimageformats
       libsForQt5.qt5.qtmultimedia
       xfce.tumbler
+      lxappearance
   ];
   fonts.packages = with pkgs; [
   noto-fonts
