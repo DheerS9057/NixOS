@@ -37,6 +37,7 @@
         ps.mysql-connector
         ps.tabulate
       ]))
+      zip
       
   ];
 }
