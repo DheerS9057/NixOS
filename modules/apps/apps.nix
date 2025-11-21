@@ -9,6 +9,7 @@
       tty-clock
       mysql84
       mariadb
+      vivaldi
 
 
  ];
