@@ -13,7 +13,6 @@
       mpv
       udisks
       udiskie
-      gvfs
       brightnessctl
       pavucontrol
       playerctl

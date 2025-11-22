@@ -18,7 +18,15 @@
  programs = {
     firefox.enable = true;
     hyprland.enable = true; 
-    thunar.enable = true;
+    thunar = {
+      enable = true;
+#      withPackages (ps: [
+ #       ps.gvfs
+  #    ])
+
+    };
+
+
     niri.enable = true;
     fish.enable = true;
   };
