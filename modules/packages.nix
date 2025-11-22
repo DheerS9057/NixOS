@@ -8,7 +8,6 @@
   ./apps/hyprland.nix
   ./apps/ui.nix
   ./apps/utilities.nix
-#  ./apps/niri.nix
  ];
 ####################################################
  nixpkgs = {
@@ -20,10 +19,6 @@
     hyprland.enable = true; 
     thunar = {
       enable = true;
-#      withPackages (ps: [
- #       ps.gvfs
-  #    ])
-
     };
 
 
