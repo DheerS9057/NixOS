@@ -19,9 +19,5 @@
       wlogout
       wl-clipboard
       starship
-      kitty
-      powertop
-      quickshell
-
   ];
 }

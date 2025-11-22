@@ -23,7 +23,6 @@
       vulkan-tools
       vulkan-validation-layers
       neovim
-      lazygit
       mesa-demos
       psmisc 
       lm_sensors
@@ -37,6 +36,8 @@
         ps.mysql-connector
         ps.tabulate
       ]))
+      mysql84
+      mariadb
       zip
       
   ];

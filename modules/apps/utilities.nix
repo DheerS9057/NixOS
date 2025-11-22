@@ -22,6 +22,5 @@
       localsend
       ectool
       xournalpp
-      kdePackages.dolphin
   ];
 }
