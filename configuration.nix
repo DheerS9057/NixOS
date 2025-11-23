@@ -1,4 +1,4 @@
-{ config,lib, pkgs, ... }:
+{ config, lib, pkgs, ... }:
 {
 #############################
   imports = [
@@ -13,9 +13,9 @@
   boot = {
     loader.systemd-boot.enable = true;
     loader.efi.canTouchEfiVariables = true;
-    loader.timeout = 1;
+    loader.timeout = 1; 
     kernelParams = [
-      "acpi_osi=\"!Windows 2018.2\""
+      "acpi_osi=\"!Windows 2018\""
       "udev.log_level=3"
       "nowatchdog"
       "i915.force_probe=46a3"
@@ -25,7 +25,6 @@
       "i915.enable_dc=1"
       "i915.enable_psr=1"
       "i915.fastboot=1"
-     # "i915.enable_dpcd_backlight=1"
     ];
 
 
