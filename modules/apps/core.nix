@@ -6,15 +6,12 @@
       git
       ly
       gcc
-      nodejs
       curl
       bat
-      wget
       gnumake
       unzip
       ripgrep
       fd
-      cargo
       libnotify
       fzf
       vkbasalt
@@ -31,13 +28,6 @@
       p7zip
       acpica-tools
       imagemagick
-      python313Packages.pip
-      (python3.withPackages (ps: [
-        ps.mysql-connector
-        ps.tabulate
-      ]))
-      mysql84
-      mariadb
       zip
       
   ];

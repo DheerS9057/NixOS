@@ -67,10 +67,8 @@
 ###########################################
   services.mysql = {
     enable = true;
-    package = pkgs.mariadb;  # Latest stable
-    initialDatabases = [ { name = "train_reservation"; } ];  # Auto-creates DB
+    package = pkgs.mariadb; 
+   # initialDatabases = [ { name = "train_reservation"; } ];  # Auto-creates DB
 
-    # No ensureUsers—avoids auth errors; we'll set manually
-    # settings = { ... };  # Not needed
   };  }
 

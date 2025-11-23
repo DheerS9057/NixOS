@@ -20,7 +20,6 @@
       cliphist
       kdePackages.okular
       localsend
-      ectool
       xournalpp
   ];
 }

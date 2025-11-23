@@ -4,10 +4,11 @@
  imports = [
   ./apps/apps.nix
   ./apps/core.nix
-  ./apps/gaming.nix
+#  ./apps/gaming.nix
   ./apps/hyprland.nix
   ./apps/ui.nix
   ./apps/utilities.nix
+  ./apps/dev.nix
  ];
 ####################################################
  nixpkgs = {
@@ -20,9 +21,6 @@
     thunar = {
       enable = true;
     };
-
-
-    niri.enable = true;
     fish.enable = true;
   };
 ####################################################
