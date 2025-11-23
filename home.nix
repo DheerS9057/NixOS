@@ -13,6 +13,5 @@
   home.file.".config/foot".source = ./dots/config/foot;
   home.file.".config/kitty".source = ./dots/config/kitty;
   home.file."Documents/Scripts/".source = ./dots/Scripts ;
-    
   
 }
