@@ -34,7 +34,7 @@ if status is-interactive # Commands to run in interactive sessions can go here
     alias cat bat
     alias vi nvim
     alias vim nvim 
-    alias nix-switch "sudo nixos-rebuild switch --flake ~/nix#The-Machine "
+    alias nix-switch "ngit 'Updated' && sudo nixos-rebuild switch --flake ~/nix#The-Machine "
     alias IUseNixBtw "fastfetch"
     alias "Windows\>\Linux" "shutdown "
     alias yta="cd Music && yt-dlp -f 'bestaudio' --audio-format flac --extract-audio"
