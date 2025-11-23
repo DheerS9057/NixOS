@@ -23,6 +23,7 @@ if status is-interactive # Commands to run in interactive sessions can go here
     export LANG=en_IN.UTF-8
 
     # Aliases
+    alias gtime "date +"%d/%m--%H%M""
     alias ngit "sudo git add . && sudo git commit -m "
     alias rm "safe-rm"
     alias svim 'sudo -E nvim'
@@ -34,7 +35,7 @@ if status is-interactive # Commands to run in interactive sessions can go here
     alias cat bat
     alias vi nvim
     alias vim nvim 
-    alias nix-switch "cd /home/$USER/nix && ngit 'Updated' && sudo nixos-rebuild switch --flake ~/nix#The-Machine "
+    alias nix-switch "cd /home/$USER/nix && ngit '$(gtime)' && sudo nixos-rebuild switch --flake ~/nix#The-Machine "
     alias IUseNixBtw "fastfetch"
     alias "Windows\>\Linux" "shutdown "
     alias yta="cd Music && yt-dlp -f 'bestaudio' --audio-format flac --extract-audio"
