@@ -186,7 +186,7 @@
   "network": {
       
       "format-wifi": "󰤨",
-      "on-click":"kitty nmtui", 
+      "on-click":"footclient nmtui", 
       "format-ethernet": "",
       "format-disconnected": "󰤮", //An empty format will hide the module.
       "tooltip":false,
