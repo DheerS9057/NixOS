@@ -22,7 +22,7 @@
   };
 #########################################
   hardware = {
-    bluetooth.enable = false;  
+    bluetooth.enable = true;  
   };
 #########################################
   services = {
