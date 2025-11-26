@@ -23,7 +23,7 @@
     "battery",
     "power-profiles-daemon",
     "network",
-    "fan",
+    "custom/fan",
    // "bluetooth",
     "tray"
 
@@ -201,7 +201,7 @@
 	    //"format-connected": "󰂱",
 	    //"on-click": "blueman-manager"
   //}
-  "fan": {
+  "custom/fan": {
     "format": "FAN",
     "on-click": "footclient ~/Documents/Scripts/fan.sh"
   }
