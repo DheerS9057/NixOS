@@ -39,6 +39,7 @@ window#waybar.hidden {
 #clock,
 #power-profiles-daemon,
 #network,
+#fan,
 /*#bluetooth,*/
 #submap {
   font-family: "JetBrainsMono Nerd Font";
@@ -199,4 +200,8 @@ window#waybar.empty #window {
   margin: 0 10px 0 0;
   padding: 0 4px;
 } */
+#fan {
+  color: #D79921;
+  font-size: 15px;
 
+}
