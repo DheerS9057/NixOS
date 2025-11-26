@@ -13,13 +13,13 @@ DELAY=1
 
 # Helper: Get current value for a reg (hex)
 get_current() {
-  sudo ectool -d | grep -o "($(printf '%02x' $1)):.*0x$(printf '%02x')" | cut -d' ' -f3 | tr -d '0x'
+   ectool -d | grep -o "($(printf '%02x' $1)):.*0x$(printf '%02x')" | cut -d' ' -f3 | tr -d '0x'
 }
 
 # Helper: Write with error check
 safe_write() {
   local reg=$1 val=$2
-  if ! sudo timeout 5 ectool -w $reg -z $val; then
+  if !  timeout 5 ectool -w $reg -z $val; then
     echo "ERROR: Failed to write $reg=0x$val. Reboot to reset."
     exit 1
   fi
