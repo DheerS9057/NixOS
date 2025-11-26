@@ -16,9 +16,3 @@
     "text" : "restart",
     "keybind" : "r"
 }
-{
-    "label" : "lock",
-    "action" : "hyprlock",
-    "text" : "lock",
-    "keybind" : "l"
-}
