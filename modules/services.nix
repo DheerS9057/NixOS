@@ -83,23 +83,17 @@
     enable = true;
     qemu = {
       package = pkgs.qemu_kvm;
-      runAsRoot = true;        # avoids certain permission issues :contentReference[oaicite:4]{index=4}
-      # Optional: enable TPM / UEFI support (helpful for modern OSes / Windows guests)
+      runAsRoot = true;
       swtpm.enable = true;
-      ovmf = {
-        enable = true;
-        packages = [ (pkgs.OVMF.override { secureBoot = false; tpmSupport = true; }).fd ];
-      };
     };
   };
 
-  # Optionally install QEMU and libvirt-related tools
   environment.systemPackages = with pkgs; [
-    qemu       # QEMU system emulator / virtualizer :contentReference[oaicite:5]{index=5}
-    virt-manager   # graphical VM manager (optional) :contentReference[oaicite:6]{index=6}
-    libvirt        # libvirt tools / libraries (optional if you just use Boxes / VMs) :contentReference[oaicite:7]{index=7}
+    qemu
+    libvirt
+    virt-manager     # if you want GUI control
+    gnome-boxes      # if using GNOME
   ];
-
 ###########################################
   }
 

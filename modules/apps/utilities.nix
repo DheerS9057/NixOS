@@ -21,6 +21,5 @@
       kdePackages.okular
       localsend
       xournalpp
-      gnome-boxes
   ];
 }
