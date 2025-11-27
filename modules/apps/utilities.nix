@@ -21,6 +21,6 @@
       kdePackages.okular
       localsend
       xournalpp
-      virtualbox
+      gnome-boxes
   ];
 }
