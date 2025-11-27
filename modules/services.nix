@@ -32,6 +32,8 @@
     enable = true;
     settings = {
       "Log.log_session" = false;
+      "Log.log_error" = false;
+      "Log.log_tty" = false;
       };
     };
   #PowerProfileCTL
