@@ -4,7 +4,7 @@
  users.users.dheer = {
     isNormalUser = true;
     description = "Dheer";
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = [ "networkmanager" "wheel" "libvirtd" "kvm"];
     packages = with pkgs; [
 
     ];
