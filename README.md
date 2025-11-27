@@ -4,8 +4,7 @@ Just clone this repo in home directory and use
 sudo nixos-rebuild switch --flake ~/nix#The-Machine 
 ```
 
-This will setup hyprland with ly and has scripts and dots will be auto managed by home-manager
-
+Using Stow instead of Home-manger for simplicity
 afterwards to update the config , just use 
 ```
 nix-switch
