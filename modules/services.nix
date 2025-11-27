@@ -28,7 +28,14 @@
   services = {
   xserver.enable = false;
   # LY Display Manager
-  displayManager.ly.enable = true;
+  displayManager.ly = {
+    enable = true;
+    settings = {
+      Log = {
+          log_session = false;
+        };
+      };
+    };
   #PowerProfileCTL
   power-profiles-daemon.enable = true;
   upower.enable = true;
