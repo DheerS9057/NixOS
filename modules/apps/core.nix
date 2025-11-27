@@ -29,6 +29,6 @@
       acpica-tools
       imagemagick
       zip
-      
+      stow
   ];
 }
