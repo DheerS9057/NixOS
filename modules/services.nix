@@ -31,9 +31,7 @@
   displayManager.ly = {
     enable = true;
     settings = {
-      Log = {
-          log_session = false;
-        };
+      "Log.log_session" = false;
       };
     };
   #PowerProfileCTL
