@@ -79,21 +79,6 @@
 
   };  
 ###########################################
-    virtualisation.libvirtd = {
-    enable = true;
-    qemu = {
-      package = pkgs.qemu_kvm;
-      runAsRoot = true;
-      swtpm.enable = true;
-    };
-  };
-
-  environment.systemPackages = with pkgs; [
-    qemu
-    libvirt
-    virt-manager     # if you want GUI control
-    gnome-boxes      # if using GNOME
-  ];
 ###########################################
   }
 
