@@ -44,4 +44,7 @@
 ##################################
 documentation.man.generateCaches = false;
 ###################################
+hardware.openrazer.enable = true;
+
+
 }
