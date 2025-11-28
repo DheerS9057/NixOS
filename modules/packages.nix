@@ -9,6 +9,7 @@
   ./apps/ui.nix
   ./apps/utilities.nix
   ./apps/dev.nix
+  ./apps/i3.nix
  ];
 ####################################################
  nixpkgs = {
