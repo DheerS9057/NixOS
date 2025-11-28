@@ -6,6 +6,6 @@
       libreoffice
       tty-clock
       polychromatic
-      grompit-mpx
+      gompit-mpx
  ];
 }
