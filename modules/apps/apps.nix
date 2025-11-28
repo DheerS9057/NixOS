@@ -5,5 +5,6 @@
       obsidian
       libreoffice
       tty-clock
+      polychromatic
  ];
 }
