@@ -54,7 +54,7 @@
     variant = "";
    };
    fstrim.enable = true;
-
+   pipewire.pulse.enable=true;
   };
 #########################################
   systemd = {
