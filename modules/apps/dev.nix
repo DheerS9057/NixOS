@@ -11,6 +11,7 @@
         ps.tabulate
         ps.beautifulsoup4
         ps.requests
+        ps.lxml
     ]))
     mysql84
     mariadb
