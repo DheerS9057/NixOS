@@ -9,6 +9,8 @@
     (python3.withPackages (ps: [
         ps.mysql-connector
         ps.tabulate
+        ps.beautifulsoup4
+        ps.requests
     ]))
     mysql84
     mariadb
