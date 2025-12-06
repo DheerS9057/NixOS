@@ -11,6 +11,8 @@
   variables = {
     GTK_THEME = "Adwaita:dark";
     GTK_ICON_THEME = "Gruvbox Plus Dark";
+    EDITOR = "nvim";
+    VISUAL = "nvim";
   };
 
   sessionVariables = { LIBVA_DRIVER_NAME = "iHD"; };
