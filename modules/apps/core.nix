@@ -31,7 +31,7 @@
       zip
       stow
       mpv
-      pipewire
+      pulseaudio
 
   ];
 }
