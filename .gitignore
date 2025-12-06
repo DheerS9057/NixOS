@@ -1,0 +1,17 @@
+# Nix
+result
+result-*
+
+# Editors
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Cache
+.cache/
+*.log
+
+# OS trash
+.DS_Store
+
