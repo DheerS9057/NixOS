@@ -31,5 +31,6 @@
       zip
       stow
       mpv
+      pactl
   ];
 }
