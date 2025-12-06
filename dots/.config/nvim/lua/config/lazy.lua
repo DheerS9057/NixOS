@@ -104,7 +104,11 @@ require("lazy").setup({
       end,
     })
   end,
-}
+},
+  rocks = {
+    enabled = false,
+    hererocks = false,
+  },
 
 })
 

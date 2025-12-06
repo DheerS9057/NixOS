@@ -30,5 +30,6 @@
       imagemagick
       zip
       stow
+      mpv
   ];
 }

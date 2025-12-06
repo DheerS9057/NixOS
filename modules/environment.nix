@@ -27,6 +27,15 @@ fonts = {
    fontconfig.enable = true;
  };
 #################################################
+xdg.mime.defaultApplications = {
+  "text/plain" = [ "nvim.desktop" ];
+  "text/x-python" = [ "nvim.desktop" ];
+  "text/x-c" = [ "nvim.desktop" ];
+  "application/json" = [ "nvim.desktop" ];
+
+  "video/mp4" = [ "mpv.desktop" ];
+  "video/x-matroska" = [ "mpv.desktop" ];
+};
 
 
 }
