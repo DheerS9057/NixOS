@@ -31,6 +31,7 @@
       zip
       stow
       mpv
-      pactl
+      pipewire
+
   ];
 }
