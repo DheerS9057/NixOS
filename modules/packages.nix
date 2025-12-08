@@ -37,7 +37,7 @@
           waylandSupport = true;
        };
      };
-   );
+   )
 
    config = {
      profile = "high-quality";
