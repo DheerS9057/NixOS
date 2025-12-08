@@ -10,7 +10,6 @@
       btop
       kew
       yt-dlp
-      mpv
       udisks
       udiskie
       brightnessctl
