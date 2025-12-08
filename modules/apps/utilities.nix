@@ -19,6 +19,7 @@
       cliphist
       kdePackages.okular
       localsend
+      mpv
       xournalpp
   ];
 }
