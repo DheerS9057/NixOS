@@ -58,7 +58,6 @@
   // Hyprland window
   "hyprland/window": {
     "format": "{class}",
-    //"format": "  {class}",
     "max-length": 15,
     "icon": false,
     "icon-size": 9,
@@ -74,7 +73,7 @@
   // Hyprland Submap
   "hyprland/submap": {
     "format": "{}",
-    "tooltip": false
+    "tooltip": true
   },
 
   // System Tray module
@@ -96,8 +95,8 @@
       "󰃟", // 75-89%
       "󰃠" // 90-100%
     ],
-    "on-scroll-up": "brightnessctl set +1%",
-    "on-scroll-down": "brightnessctl set 1%-",
+    "on-scroll-up": "brightnessctl set +2%",
+    "on-scroll-down": "brightnessctl set 2%-",
     "smooth-scrolling-threshold": 1,
     "tooltip": false,
     "tooltip-format": "Brightness: {percent}%"
@@ -188,16 +187,8 @@
       "on-click":"footclient nmtui", 
       "format-ethernet": "",
       "format-disconnected": "󰤮", //An empty format will hide the module.
-      "tooltip":false,
+      "tooltip":true,
       "max-length": 50
-  }, 
-  //"bluetooth": {
-//
-  //    "format": "",
-	  //  "format-disabled": "",
-      //"tooltip":false ,
-	    //"format-connected": "󰂱",
-	    //"on-click": "blueman-manager"
-  //}
+  }
 }
 
