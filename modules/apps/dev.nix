@@ -12,11 +12,11 @@
         ps.beautifulsoup4
         ps.requests
         ps.lxml
-        ps.manim
     ]))
     mysql84
     mariadb
     ectool
+    texliveFull
 
 
   ];
