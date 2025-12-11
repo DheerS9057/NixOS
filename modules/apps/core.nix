@@ -34,5 +34,6 @@
       pulseaudio
       v4l-utils
       ffmpeg
+      powertop
   ];
 }
