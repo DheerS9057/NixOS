@@ -24,7 +24,7 @@
       "uvcvideo"
     ];
     extraModprobeConfig= ''
-      options uvcvideo quirks=128
+      options uvcvideo quirks=640
     '';
 
 
