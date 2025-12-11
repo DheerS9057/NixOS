@@ -33,5 +33,6 @@
       mpv
       pulseaudio
       v4l-utils
+      ffmpeg
   ];
 }
