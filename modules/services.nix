@@ -61,7 +61,6 @@
       alsa.enable = true;
       alsa.support32Bit = true;
       pulse.enable = true;
-      video.enable = true;
       };
   };
 #########################################
