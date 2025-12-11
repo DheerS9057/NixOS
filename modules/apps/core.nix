@@ -32,6 +32,6 @@
       stow
       mpv
       pulseaudio
-
+      v4l-utils
   ];
 }

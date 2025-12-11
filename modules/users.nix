@@ -4,7 +4,7 @@
  users.users.dheer = {
     isNormalUser = true;
     description = "Dheer";
-    extraGroups = [ "networkmanager" "wheel" "openrazer"];
+    extraGroups = [ "networkmanager" "wheel" "openrazer" "video"];
     packages = with pkgs; [
 
     ];

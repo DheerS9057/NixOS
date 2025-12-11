@@ -54,7 +54,15 @@
     variant = "";
    };
    fstrim.enable = true;
-   pipewire.pulse.enable=true;
+   
+
+    pipewire = {
+      enable = true;
+      alsa.enable = true;
+      alsa.support32Bit = true;
+      pulse.enable = true;
+      video.enable = true;
+      };
   };
 #########################################
   systemd = {
