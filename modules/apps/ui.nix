@@ -15,7 +15,6 @@
       libsForQt5.qt5.qtmultimedia
       xfce.tumbler
       lxappearance
-      kvantum
   ];
   fonts.packages = with pkgs; [
   noto-fonts
@@ -26,6 +25,7 @@
   freefont_ttf
   corefonts
   vista-fonts
+
 ];
 
 fonts.fontconfig = {
