@@ -21,10 +21,8 @@
       "i915.force_probe=46a3"
       "rcutree.enable_rcu_lazy=1"
       "i8042.nomux"
-      "uvcvideo"
     ];
     extraModprobeConfig= ''
-      options uvcvideo quirks=640
     '';
 
 
@@ -47,7 +45,7 @@
       resumeCommands ='' echo "Broooooo Suspend was a success" ''; 
   };
 ##################################
-documentation.man.generateCaches = false;
+#documentation.man.generateCaches = false;
 ###################################
 hardware.openrazer.enable = true;
 
