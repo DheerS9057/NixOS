@@ -17,7 +17,7 @@
     mariadb
     ectool
     texliveFull
-
+    freecad
 
   ];
 }
