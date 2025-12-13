@@ -11,6 +11,8 @@ let
       pkgs.qt6.qtdeclarative
       pkgs.qt6.qtsvg
       pkgs.wlsunset
+      pkgs.gpu-screen-recorder
+      pkgs.gpu-screen-recorder-gtk
     ];
   });
 in
