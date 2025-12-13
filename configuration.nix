@@ -45,7 +45,7 @@
       resumeCommands ='' echo "Broooooo Suspend was a success" ''; 
   };
 ##################################
-#documentation.man.generateCaches = false;
+documentation.man.generateCaches = false;
 ###################################
 hardware.openrazer.enable = true;
 

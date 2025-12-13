@@ -1,13 +1,11 @@
 { pkgs, ... }:
 
 {
+  nixpkgs.overlays = [ inputs.niri.overlays.niri ];
+  programs.niri.package = pkgs.niri-unstable;
   environment.systemPackages = with pkgs; [
-    niri
     quickshell
     swaybg
-    xdg-desktop-portal-gtk
-    xdg-desktop-portal-gnome
-    gnome-keyring
     kdePackages.polkit-kde-agent-1
     xwayland-satellite
     swayidle
