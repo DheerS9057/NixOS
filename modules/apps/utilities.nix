@@ -21,5 +21,6 @@
       localsend
       mpv
       xournalpp
+      nautilus
   ];
 }
