@@ -10,6 +10,7 @@ let
       pkgs.qt6.qtmultimedia
       pkgs.qt6.qtdeclarative
       pkgs.qt6.qtsvg
+      pkgs.wlsunset
     ];
   });
 in
@@ -19,10 +20,6 @@ in
     swaybg
     kdePackages.polkit-kde-agent-1
     xwayland-satellite
-    swayidle
-    swaylock
-    fuzzel
-    alacritty
     inputs.noctalia.packages.${pkgs.stdenv.hostPlatform.system}.default
 
  ];
