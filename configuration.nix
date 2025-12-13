@@ -50,7 +50,7 @@ documentation.man.generateCaches = false;
 hardware.openrazer.enable = true;
 ###################################
  programs.niri.enable = true;
-  programs.niri.package = pkgs.niri-unstable;
+ programs.niri.package = pkgs.niri;
 
 
 
