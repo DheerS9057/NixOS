@@ -36,5 +36,6 @@
       ffmpeg
       powertop
       qt6.qtmultimedia
+      qt6ct
   ];
 }
