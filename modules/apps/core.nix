@@ -35,5 +35,6 @@
       v4l-utils
       ffmpeg
       powertop
+      qt6
   ];
 }
