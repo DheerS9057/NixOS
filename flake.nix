@@ -11,6 +11,8 @@
           modules = [
             ./configuration.nix
                      ];
+          programs.niri.package = pkgs.niri-unstable;
+          nixpkgs.overlays = [ inputs.niri.overlays.niri ];
                    };
                 };
               }
