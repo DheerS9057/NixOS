@@ -35,6 +35,6 @@
       v4l-utils
       ffmpeg
       powertop
-      qt6.full
+      qt6.qtmultimedia
   ];
 }
