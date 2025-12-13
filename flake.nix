@@ -15,12 +15,9 @@
      };
   };
 
-  outputs = { self, nixpkgs, inputs, ... }: {
+  outputs = inputs@{ self, nixpkgs, ... }: {
     nixosConfigurations.The-Machine = nixpkgs.lib.nixosSystem {
         system = "x86_64-linux";
-        specialArgs = {
-            inherit inputs;
-          };
           modules = [
             ./configuration.nix
                      ];
