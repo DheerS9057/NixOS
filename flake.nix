@@ -15,7 +15,7 @@
      };
   };
 
-  outputs = { self, nixpkgs, niri, ... }: {
+  outputs = { self, nixpkgs, niri, inputs,... }: {
     nixosConfigurations.The-Machine = nixpkgs.lib.nixosSystem {
         system = "x86_64-linux";
         specialArgs = {
