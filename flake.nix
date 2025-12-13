@@ -6,7 +6,7 @@
     
     niri={
       url = "github:YaLTeR/niri";
-      inputs.nixpkgs.follow = "nixpkgs";
+      inputs.nixpkgs.follows = "nixpkgs";
       };
   };
 
