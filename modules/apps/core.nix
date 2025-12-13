@@ -37,5 +37,7 @@
       powertop
       qt6.qtmultimedia
       qt6Packages.qt6ct
+      libsForQt5.qt5ct
+      qt6.full
   ];
 }
