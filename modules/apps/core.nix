@@ -35,8 +35,8 @@
       v4l-utils
       ffmpeg
       powertop
+      qt6.qtbase
+      qt6.qtmultimedia
       qt6Packages.qtmultimedia
-      qt6Packages.qt6ct
-      libsForQt5.qt5ct
   ];
 }
