@@ -23,9 +23,5 @@
       xournalpp
       nautilus
       wev
-      gpu-screen-recorder
-      matugen-git
-      wlsunset
-      evolution-data-center
   ];
 }

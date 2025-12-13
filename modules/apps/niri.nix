@@ -1,4 +1,4 @@
-{ pkgs, ... }:
+{ pkgs, inputs, ... }:
 
 {
   environment.systemPackages = with pkgs; [
@@ -10,6 +10,7 @@
     swaylock
     fuzzel
     alacritty
+    inputs.noctalia.packages.${pkgs.stdenv.hostPlatform.system}.default
 
  ];
 }
