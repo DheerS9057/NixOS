@@ -15,7 +15,6 @@
       libsForQt5.qt5.qtmultimedia
       xfce.tumbler
       lxappearance
-      kvantum
   ];
   fonts.packages = with pkgs; [
   noto-fonts
@@ -26,16 +25,15 @@
   freefont_ttf
   corefonts
   vista-fonts
-
 ];
 
-fonts.fontconfig = {
-  enable = true;
-  antialias = true;
-  hinting.enable = true;
-  hinting.style = "full";
-  subpixel.rgba = "rgb";
-};
+#fonts.fontconfig = {
+ # enable = true;
+ # antialias = true;
+ # hinting.enable = true;
+ # hinting.style = "full";
+ # subpixel.rgba = "rgb";
+#};
 
 
 
