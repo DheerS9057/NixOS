@@ -15,6 +15,7 @@
     libsForQt5.qt5.qtmultimedia
     xfce.tumbler
     lxappearance
+    typstPackages.use-tabler-icons_0_8_0
   ];
 
   fonts = {
