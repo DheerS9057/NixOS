@@ -36,12 +36,8 @@
       corefonts
       vista-fonts
       font-awesome
-
-      (runCommand "tabler-icons-font" {} ''
-        mkdir -p $out/share/fonts/truetype
-        cp ${./path/to/tabler-icons.ttf} $out/share/fonts/truetype/
-      '')
-    ];
+      tabler-icons
+   ];
   };
 }
 
