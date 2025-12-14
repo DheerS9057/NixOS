@@ -15,6 +15,7 @@
       libsForQt5.qt5.qtmultimedia
       xfce.tumbler
       lxappearance
+      kvantum
   ];
   fonts.packages = with pkgs; [
   noto-fonts
