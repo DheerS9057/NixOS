@@ -37,7 +37,6 @@
       corefonts
       vista-fonts
       font-awesome
-      tabler-icons
    ];
   };
 }

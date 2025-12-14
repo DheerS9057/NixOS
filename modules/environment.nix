@@ -5,7 +5,7 @@
   environment = {
 
   sessionVariables.XDG_DATA_DIRS =
-    [ "$HOME/.icons" "/usr/share/icons" ];
+    [ "$HOME/.icons" "/usr/share/icons" "/run/current-system/sw/share" ];
 
 
   variables = {
