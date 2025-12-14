@@ -35,6 +35,12 @@ fonts.fontconfig = {
   subpixel.rgba = "rgb";
 };
 
+fonts.packages = [
+  (pkgs.runCommand "tabler-icons-font" {} ''
+    mkdir -p $out/share/fonts/truetype
+    cp ${./path/to/tabler-icons.ttf} $out/share/fonts/truetype/
+  '')
+];
 
 
 }
