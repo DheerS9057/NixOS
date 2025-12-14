@@ -139,7 +139,7 @@
     },
     "brightness": {
         "brightnessStep": 5,
-        "enableDdcSupport": true,
+        "enableDdcSupport": false,
         "enforceMinimum": true
     },
     "calendar": {
@@ -168,7 +168,7 @@
         "manualSunrise": "06:30",
         "manualSunset": "18:30",
         "matugenSchemeType": "scheme-fruit-salad",
-        "predefinedScheme": "Rose Pine",
+        "predefinedScheme": "Tokyo Night",
         "schedulingMode": "off",
         "useWallpaperColors": false
     },
@@ -308,12 +308,12 @@
         "respectExpireTimeout": false,
         "sounds": {
             "criticalSoundFile": "",
-            "enabled": true,
+            "enabled": false,
             "excludedApps": "discord,firefox,chrome,chromium,edge",
             "lowSoundFile": "",
             "normalSoundFile": "",
-            "separateSounds": true,
-            "volume": 0.2
+            "separateSounds": false,
+            "volume": 0.5
         }
     },
     "osd": {
@@ -419,7 +419,7 @@
         "gtk": true,
         "kcolorscheme": true,
         "kitty": false,
-        "niri": false,
+        "niri": true,
         "pywalfox": false,
         "qt": true,
         "spicetify": false,

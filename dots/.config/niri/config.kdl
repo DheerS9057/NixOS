@@ -338,3 +338,4 @@ debug{
   ignore-drm-device "/dev/dri/nvidia-dgpu"
 }
 
+include "./noctalia.kdl"
