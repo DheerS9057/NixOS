@@ -1,0 +1,4 @@
+FontLoader {
+    source: fontPath
+}
+
