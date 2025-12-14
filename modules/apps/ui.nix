@@ -27,13 +27,13 @@
   vista-fonts
 ];
 
-#fonts.fontconfig = {
- # enable = true;
- # antialias = true;
- # hinting.enable = true;
- # hinting.style = "full";
- # subpixel.rgba = "rgb";
-#};
+fonts.fontconfig = {
+  enable = true;
+  antialias = true;
+  hinting.enable = true;
+  hinting.style = "full";
+  subpixel.rgba = "rgb";
+};
 
 
 
