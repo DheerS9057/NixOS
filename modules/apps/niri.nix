@@ -13,7 +13,7 @@ let
       pkgs.wlsunset
       pkgs.gpu-screen-recorder
       pkgs.gpu-screen-recorder-gtk
-      wlsunset
+      pkgs.wlsunset
     ];
   });
 in
