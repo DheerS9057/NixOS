@@ -13,6 +13,7 @@ let
       pkgs.wlsunset
       pkgs.gpu-screen-recorder
       pkgs.gpu-screen-recorder-gtk
+      wlsunset
     ];
   });
 in
@@ -22,6 +23,8 @@ in
     swaybg
     kdePackages.polkit-kde-agent-1
     xwayland-satellite
+    pkgs.gpu-screen-recorder
+    wlsunset
     inputs.noctalia.packages.${pkgs.stdenv.hostPlatform.system}.default
 
  ];
