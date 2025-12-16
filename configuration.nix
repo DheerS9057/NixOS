@@ -24,7 +24,10 @@
       #"i915.force_probe=46a3"
       "rcutree.enable_rcu_lazy=1"
       "i8042.nomux"
-      "i915.enable_dc=4"
+      "i915.enable_dc=2"
+      "i915.enable_psr=0"
+      "i915.enable_fbc=0"
+
     ];
     extraModprobeConfig= ''
     '';
