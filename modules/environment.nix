@@ -10,7 +10,7 @@
   variables = {
     GTK_THEME = "Adwaita:dark";
     GTK_ICON_THEME = "Gruvbox Plus Dark";
-    EDITOR = "nvim";
+    EDITOR = "footclient nvim";
     TERMINAL = "footclient";
     VISUAL = "nvim";  
   };
@@ -20,7 +20,7 @@
                        BROWSER = "firefox";
                        TERMINAL = "footclient";
                        VISUAL = "nvim";
-                       EDITOR = "nvim";
+                       EDITOR = "footclient nvim";
                        PAGER = "bat";
                        NIXOS_OZONE_WL = 1;
 
