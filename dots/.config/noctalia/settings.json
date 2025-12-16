@@ -20,7 +20,7 @@
         ],
         "preferredPlayer": "",
         "visualizerQuality": "high",
-        "visualizerType": "mirrored",
+        "visualizerType": "linear",
         "volumeOverdrive": false,
         "volumeStep": 5
     },
@@ -41,10 +41,10 @@
         "widgets": {
             "center": [
                 {
-                    "colorName": "primary",
+                    "colorName": "secondary",
                     "hideWhenIdle": true,
                     "id": "AudioVisualizer",
-                    "width": 200
+                    "width": 150
                 },
                 {
                     "characterCount": 2,
@@ -271,7 +271,7 @@
     },
     "location": {
         "analogClockInCalendar": false,
-        "firstDayOfWeek": -1,
+        "firstDayOfWeek": 1,
         "name": "Ahemdabad , India",
         "showCalendarEvents": true,
         "showCalendarWeather": true,
@@ -282,12 +282,12 @@
         "weatherShowEffects": true
     },
     "network": {
-        "wifiEnabled": false
+        "wifiEnabled": true
     },
     "nightLight": {
         "autoSchedule": true,
         "dayTemp": "6500",
-        "enabled": false,
+        "enabled": true,
         "forced": false,
         "manualSunrise": "06:30",
         "manualSunset": "18:30",
@@ -318,7 +318,7 @@
     },
     "osd": {
         "autoHideMs": 1400,
-        "backgroundOpacity": 0.1,
+        "backgroundOpacity": 0.86,
         "enabled": true,
         "enabledTypes": [
             0,

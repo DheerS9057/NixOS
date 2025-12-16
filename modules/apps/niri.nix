@@ -26,6 +26,6 @@ in
     pkgs.gpu-screen-recorder
     wlsunset
     inputs.noctalia.packages.${pkgs.stdenv.hostPlatform.system}.default
-
+    tofi
  ];
 }
