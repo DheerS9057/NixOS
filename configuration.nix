@@ -18,9 +18,10 @@
     kernelParams = [
       "acpi_osi=\"Windows 2020\""
       "acpi_os_name=\"Windows 2020\""
+      "ec_no_wakeup=1"
       "udev.log_level=3"
       "nowatchdog"
-      "i915.force_probe=46a3"
+      #"i915.force_probe=46a3"
       "rcutree.enable_rcu_lazy=1"
       "i8042.nomux"
       "i915.enable_dc=4"
