@@ -49,6 +49,7 @@ hardware.bluetooth = {
     };
   #  
   udisks2.enable = true;
+  gvfs.enable = true;
   
   xserver.xkb = {
     layout = "us";

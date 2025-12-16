@@ -419,7 +419,7 @@
         "gtk": true,
         "kcolorscheme": true,
         "kitty": false,
-        "niri": true,
+        "niri": false,
         "pywalfox": false,
         "qt": true,
         "spicetify": false,
