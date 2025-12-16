@@ -1,10 +1,4 @@
 { config, pkgs, lib, ...}:
-:q
-
-:q
-
-
-
 {
 #################################################
   environment = {
@@ -17,13 +11,21 @@
     GTK_THEME = "Adwaita:dark";
     GTK_ICON_THEME = "Gruvbox Plus Dark";
     EDITOR = "nvim";
-    VISUAL = "nvim";
+    VISUAL = "nvim";  
   };
 
-  sessionVariables = { LIBVA_DRIVER_NAME = "iHD"; };
+  sessionVariables = { LIBVA_DRIVER_NAME = "iHD";
+                       FILE_MANAGER = "thunar";
+                       BROWSER = "firefox";
+                       TERMINAL = "footclient";
+                       VISUAL = "nvim";
+                       EDITOR = "nvim";
+                       PAGER = "bat";
+                       NIXOS_OZONE_WL = 1;
+
+  };
   shells = [ pkgs.fish ];
 
-  sessionVariables.NIXOS_OZONE_WL = "1";
 };
 #################################################
 fonts = {
@@ -43,6 +45,7 @@ xdg.mime.defaultApplications = {
   "video/mp4" = [ "mpv.desktop" ];
   "video/x-matroska" = [ "mpv.desktop" ];
 };
+##################################################
 
 
 }

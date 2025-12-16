@@ -17,12 +17,13 @@
         { from = 53317; to = 53317; }
       ];
     };
-    networkmanager.wifi.powersave = true;
 
   };
 #########################################
-  hardware = {
-    bluetooth.enable = true;  
+hardware.bluetooth = {
+    enable = true;
+    powerOnBoot = true;
+    settings.General.Experimental = true; # bluetooth percentage
   };
 #########################################
   services = {
