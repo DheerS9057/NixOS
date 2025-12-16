@@ -20,6 +20,7 @@ in
 {
   environment.systemPackages = with pkgs; [
     quickshellWithQt6
+    quickshell
     swaybg
     kdePackages.polkit-kde-agent-1
     xwayland-satellite

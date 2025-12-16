@@ -26,19 +26,11 @@
       s-tui
       xarchiver
       p7zip
-      acpica-tools
       imagemagick
       zip
       stow
       mpv
       pulseaudio
-      v4l-utils
       ffmpeg
-      powertop
-      qt6.qtbase
-      qt6.qtmultimedia
-      qt6Packages.qtmultimedia
-      usbutils
-      pciutils
   ];
 }
