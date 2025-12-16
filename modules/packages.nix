@@ -21,6 +21,12 @@
     hyprland.enable = true; 
     thunar = {
       enable = true;
+      plugins = with pkgs; [
+          xfce.thunar-archive-plugin
+          xfce.thunar-volman
+          gvfs
+          xfce.tumbler
+      ];
     };
     fish.enable = true;
 

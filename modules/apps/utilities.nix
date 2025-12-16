@@ -22,6 +22,8 @@
       mpv
       xournalpp
       nautilus
+      gvfs
       wev
+
   ];
 }
