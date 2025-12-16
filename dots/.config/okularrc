@@ -1,5 +1,7 @@
 [Desktop Entry]
-FullScreen=false
+FullScreen=true
+shouldShowMenuBarComingFromFullScreen=false
+shouldShowToolBarComingFromFullScreen=false
 
 [General]
 LockSidebar=true
@@ -11,8 +13,10 @@ MenuBar=Disabled
 [Recent Files]
 File1[$e]=$HOME/Downloads/BITSAT-2026.pdf
 File2[$e]=$HOME/2025-12-16-142317_hyprshot.png
+File3[$e]=$HOME/Documents/Notes/Sets and Relations Notes (MathonGo).pdf
 Name1[$e]=BITSAT-2026.pdf
 Name2[$e]=2025-12-16-142317_hyprshot.png
+Name3[$e]=Sets and Relations Notes (MathonGo).pdf
 
 [UiSettings]
 ColorScheme=noctalia
