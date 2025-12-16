@@ -51,6 +51,7 @@ hardware.bluetooth = {
   udisks2.enable = true;
   gvfs.enable = true;
   tumbler.enable = true;
+  thunar.enable = true;
   
   xserver.xkb = {
     layout = "us";
