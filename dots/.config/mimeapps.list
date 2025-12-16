@@ -1,5 +1,8 @@
 [Default Applications]
 audio/mpeg=userapp-footclient kew-E7CUH3.desktop
+application/x-zerosize=nvim.desktop
 
 [Added Associations]
 audio/mpeg=userapp-footclient kew-E7CUH3.desktop;
+application/pdf=okularApplication_pdf.desktop;
+application/x-zerosize=nvim.desktop;

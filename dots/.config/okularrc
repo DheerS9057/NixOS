@@ -1,5 +1,16 @@
+[Desktop Entry]
+FullScreen=false
+
+[General]
+LockSidebar=true
+ShowSidebar=true
+
 [MainWindow]
 MenuBar=Disabled
+
+[Recent Files]
+File1[$e]=$HOME/Downloads/BITSAT-2026.pdf
+Name1[$e]=BITSAT-2026.pdf
 
 [UiSettings]
 ColorScheme=noctalia

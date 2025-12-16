@@ -1,4 +1,5 @@
 prefer-no-csd
+/////////////////////////////////////////////////
 input {
     keyboard {
       repeat-rate 35
@@ -6,29 +7,23 @@ input {
         xkb {
           options "caps:swapescape"
         }
-
         numlock
     }
-
     touchpad {
         tap
         natural-scroll
         dwt
         accel-profile "adaptive"
-       
     }
-
         warp-mouse-to-focus
      focus-follows-mouse max-scroll-amount="50%"
 }
-
+//////////////////////////////////////////////////
 output "eDP-1" {
     mode "1920x1080@144.149"
     scale 1.25
 }
-
-
-
+//////////////////////////////////////////////////
 spawn-sh-at-startup " quickshell -c ~/.config/quickshell/noctalia-shell/"
 spawn-sh-at-startup "swaybg -i ~/Wallpapers/Monster.png"
 spawn-sh-at-startup "foot --server"

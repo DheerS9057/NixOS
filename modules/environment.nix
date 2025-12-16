@@ -41,6 +41,7 @@ xdg.mime.defaultApplications = {
   "text/x-python" = [ "nvim.desktop" ];
   "text/x-c" = [ "nvim.desktop" ];
   "application/json" = [ "nvim.desktop" ];
+  "application/terminal" = ["footclient"];
 
   "video/mp4" = [ "mpv.desktop" ];
   "video/x-matroska" = [ "mpv.desktop" ];
