@@ -24,8 +24,6 @@
       #"i915.force_probe=46a3"
       "rcutree.enable_rcu_lazy=1"
       "i8042.nomux"
-      "i915.enable_psr=0"
-      "i915.enable_fbc=0"
 
     ];
     extraModprobeConfig= ''
@@ -61,6 +59,26 @@ hardware.openrazer.enable = true;
 ###################################
  programs.niri.enable = true;
  programs.niri.package = pkgs.niri;
+####################################
+ systemd.services.systemd-suspend.environment = {
+  SYSTEMD_SLEEP_FREEZE_USER_SESSIONS = "false";
+};
+
+systemd.services.systemd-hibernate.environment = {
+  SYSTEMD_SLEEP_FREEZE_USER_SESSIONS = "false";
+};
+
+systemd.services.systemd-hybrid-sleep.environment = {
+  SYSTEMD_SLEEP_FREEZE_USER_SESSIONS = "false";
+};
+
+systemd.services.systemd-suspend-then-hibernate.environment = {
+  SYSTEMD_SLEEP_FREEZE_USER_SESSIONS = "false";
+};
+
+systemd.services.systemd-homed.environment = {
+  SYSTEMD_HOME_LOCK_FREEZE_SESSION = "false";
+};
 
 
 
