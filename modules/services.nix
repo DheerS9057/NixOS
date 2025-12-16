@@ -32,9 +32,7 @@ hardware.bluetooth = {
   displayManager.ly = {
     enable = true;
     settings = {
-      "Log.log_session" = false;
-      "Log.log_error" = false;
-      "Log.log_tty" = false;
+      save = false ;
       };
     };
   #PowerProfileCTL

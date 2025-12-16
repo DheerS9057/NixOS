@@ -1,0 +1,5 @@
+[Default Applications]
+audio/mpeg=userapp-footclient kew-E7CUH3.desktop
+
+[Added Associations]
+audio/mpeg=userapp-footclient kew-E7CUH3.desktop;
