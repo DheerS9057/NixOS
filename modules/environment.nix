@@ -11,6 +11,7 @@
     GTK_THEME = "Adwaita:dark";
     GTK_ICON_THEME = "Gruvbox Plus Dark";
     EDITOR = "nvim";
+    TERMINAL = "footclient";
     VISUAL = "nvim";  
   };
 
