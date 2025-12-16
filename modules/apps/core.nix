@@ -38,5 +38,7 @@
       qt6.qtbase
       qt6.qtmultimedia
       qt6Packages.qtmultimedia
+      usbutils
+      pciutils
   ];
 }
