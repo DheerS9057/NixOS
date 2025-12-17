@@ -2,7 +2,7 @@ binds {
     Mod+Shift+Slash { show-hotkey-overlay; }
 
     Mod+return hotkey-overlay-title="Foot" { spawn "footclient"; }
-    Mod+space hotkey-overlay-title="Tofi" { spawn-sh "tofi-drun"; }
+    Mod+space hotkey-overlay-title="Tofi" { spawn "tofi-drun"  "--drun-launch=true"; }
     Super+Alt+L hotkey-overlay-title="HyprLock" { spawn "hyprlock"; }
     Mod+Q hotkey-overlay-title="Firefox" {spawn "firefox"; }
     Mod+E {spawn "thunar";}
