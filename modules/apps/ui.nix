@@ -15,7 +15,6 @@
     libsForQt5.qt5.qtmultimedia
     lxappearance
     tokyonight-gtk-theme
-    fcitx5
   ];
 
   fonts = {
