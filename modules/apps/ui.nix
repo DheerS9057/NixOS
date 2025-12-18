@@ -14,7 +14,8 @@
     libsForQt5.qt5.qtimageformats
     libsForQt5.qt5.qtmultimedia
     lxappearance
-    typstPackages.use-tabler-icons_0_8_0
+    tokyonight-gtk-theme
+    fcitx5
   ];
 
   fonts = {

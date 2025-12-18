@@ -45,6 +45,7 @@ if status is-interactive
     alias man batman
     alias c clear
     alias h history
+    alias py python
 
 end
 
