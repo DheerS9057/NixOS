@@ -25,7 +25,6 @@ output "eDP-1" {
 }
 //////////////////////////////////////////////////
 spawn-sh-at-startup " quickshell -c ~/.config/quickshell/noctalia-shell/"
-spawn-sh-at-startup "swaybg -i ~/Wallpapers/Monster.png"
 spawn-sh-at-startup "foot --server"
 spawn-sh-at-startup "udiskie"
 spawn-sh-at-startup "/usr/lib/polkit-kde-authentication-agent-1"

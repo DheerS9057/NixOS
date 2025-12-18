@@ -25,8 +25,8 @@
         "volumeStep": 5
     },
     "bar": {
-        "backgroundOpacity": 0.9,
-        "capsuleOpacity": 0.88,
+        "backgroundOpacity": 0.88,
+        "capsuleOpacity": 0.92,
         "density": "default",
         "exclusive": true,
         "floating": false,
@@ -125,6 +125,9 @@
                     "showNoctaliaPerformance": false,
                     "showPowerProfiles": false,
                     "warningThreshold": 30
+                },
+                {
+                    "id": "PowerProfile"
                 },
                 {
                     "customFont": "",
@@ -441,7 +444,7 @@
     "wallpaper": {
         "directory": "/home/dheer/Wallpapers",
         "enableMultiMonitorDirectories": false,
-        "enabled": false,
+        "enabled": true,
         "fillColor": "#000000",
         "fillMode": "stretch",
         "hideWallpaperFilenames": false,
