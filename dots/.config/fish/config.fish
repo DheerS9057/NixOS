@@ -40,5 +40,11 @@ if status is-interactive
     alias yta "cd Music && yt-dlp -f bestaudio --audio-format flac --extract-audio"
     alias :wq exit
     alias :q exit
+    alias tree "eza --tree"
+    alias top btop
+    alias man batman
+    alias c clear
+    alias h history
+
 end
 
