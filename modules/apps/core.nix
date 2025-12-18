@@ -32,6 +32,6 @@
       mpv
       pulseaudio
       ffmpeg
-      batman
+      bat-extras.batman
   ];
 }
