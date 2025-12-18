@@ -1,115 +1,53 @@
--- lua/config/lazy.lua
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
-if not vim.loop.fs_stat(lazypath) then
-  vim.fn.system({
-    "git",
-    "clone",
-    "--filter=blob:none",
-    "https://github.com/folke/lazy.nvim.git",
-    "--branch=stable",
-    lazypath,
-  })
+if not (vim.uv or vim.loop).fs_stat(lazypath) then
+  local lazyrepo = "https://github.com/folke/lazy.nvim.git"
+  local out = vim.fn.system({ "git", "clone", "--filter=blob:none", "--branch=stable", lazyrepo, lazypath })
+  if vim.v.shell_error ~= 0 then
+    vim.api.nvim_echo({
+      { "Failed to clone lazy.nvim:\n", "ErrorMsg" },
+      { out, "WarningMsg" },
+      { "\nPress any key to exit..." },
+    }, true, {})
+    vim.fn.getchar()
+    os.exit(1)
+  end
 end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
-  -- === Essentials ===
-  { "nvim-lua/plenary.nvim" },
-  { "nvim-tree/nvim-web-devicons" },
-  { "nvim-telescope/telescope.nvim", dependencies = { "nvim-lua/plenary.nvim" } },
-  { "nvim-treesitter/nvim-treesitter", build = ":TSUpdate" },
-  { "neovim/nvim-lspconfig" },
-  { "williamboman/mason.nvim", build = ":MasonUpdate" },
-  { "williamboman/mason-lspconfig.nvim" },
-  { "hrsh7th/nvim-cmp" },
-  { "hrsh7th/cmp-nvim-lsp" },
-  { "L3MON4D3/LuaSnip" },
-  { "saadparwaiz1/cmp_luasnip" },
-
-  -- === Theme ===
- {
-  "ellisonleao/gruvbox.nvim",
-  priority = 1000,
-  config = function()
-    require("gruvbox").setup({
-      contrast = "hard",
-      italic = { strings = false, comments = true },
-      overrides = {
-        Normal       = { bg = "none" },
-        NormalNC     = { bg = "none" },
-        NormalFloat  = { bg = "none" },
-        FloatBorder  = { bg = "none" },
-        SignColumn   = { bg = "none" },
-        LineNr       = { bg = "none" },
-        Folded       = { bg = "none" },
-        VertSplit    = { bg = "none" },
-        StatusLine   = { bg = "none" },
-        StatusLineNC = { bg = "none" },
-      },
-    })
-    vim.cmd("colorscheme gruvbox")
-
-    -- Transparent background globally
-    vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
-    vim.api.nvim_set_hl(0, "NormalNC", { bg = "none" })
-    vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
-    vim.api.nvim_set_hl(0, "FloatBorder", { bg = "none" })
-  end,
-},
-
-  -- === UI Enhancements ===
-{
-  "nvim-lualine/lualine.nvim",
-  config = function()
-    require("lualine").setup({
-      options = {
-        theme = "gruvbox",
-        component_separators = { left = "", right = "" },
-        section_separators = { left = "", right = "" },
-        globalstatus = true,
-      },
-    })
-  end,
-},
-
-
-  { "nvim-tree/nvim-tree.lua", config = function()
-      require("nvim-tree").setup()
-      vim.keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>", { noremap = true, silent = true })
-    end
+  spec = {
+    -- add LazyVim and import its plugins
+    --{ "LazyVim/LazyVim", import = "lazyvim.plugins" },
+    -- import/override with your plugins
+    { import = "plugins" },
   },
-
-
-{
-  "NvChad/nvim-colorizer.lua",
-  event = "BufReadPre",
-  config = function()
-    require("colorizer").setup({
-      filetypes = { "*", "hyprlang", "conf" },
-      user_default_options = {
-        RGB = true,
-        RRGGBB = true,
-        AARRGGBB = true, -- supports hex with alpha (like a89984ee)
-        css = true,
-        css_fn = true,
-        names = false,
-      },
-    })
-
-    -- Ensure colorizer attaches to hyprland configs
-    vim.api.nvim_create_autocmd("FileType", {
-      pattern = { "hyprlang", "conf", "hypr" },
-      callback = function()
-        require("colorizer").attach_to_buffer(0)
-      end,
-    })
-  end,
-},
-  rocks = {
-    enabled = false,
-    hererocks = false,
+  defaults = {
+    -- By default, only LazyVim plugins will be lazy-loaded. Your custom plugins will load during startup.
+    -- If you know what you're doing, you can set this to `true` to have all your custom plugins lazy-loaded by default.
+    lazy = false,
+    -- It's recommended to leave version=false for now, since a lot the plugin that support versioning,
+    -- have outdated releases, which may break your Neovim install.
+    version = false, -- always use the latest git commit
+    -- version = "*", -- try installing the latest stable version for plugins that support semver
   },
-
+  install = { colorscheme = { "tokyonight", "habamax" } },
+  checker = {
+    enabled = true, -- check for plugin updates periodically
+    notify = false, -- notify on update
+  }, -- automatically check for plugin updates
+  performance = {
+    rtp = {
+      -- disable some rtp plugins
+      disabled_plugins = {
+        "gzip",
+        -- "matchit",
+        -- "matchparen",
+        -- "netrwPlugin",
+        "tarPlugin",
+        "tohtml",
+        "tutor",
+        "zipPlugin",
+      },
+    },
+  },
 })
-
-
