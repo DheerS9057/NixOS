@@ -1,9 +1,11 @@
 [Default Applications]
 audio/mpeg=userapp-footclient kew-E7CUH3.desktop
 application/x-zerosize=nvim.desktop
+application/octet-stream=userapp-footclient nvim-NDBWH3.desktop
 
 [Added Associations]
 audio/mpeg=userapp-footclient kew-E7CUH3.desktop;
 application/pdf=okularApplication_pdf.desktop;
 application/x-zerosize=nvim.desktop;
 image/png=okularApplication_kimgio.desktop;foot.desktop;
+application/octet-stream=userapp-footclient nvim-NDBWH3.desktop;

@@ -25,6 +25,10 @@
       "rcutree.enable_rcu_lazy=1"
       "i8042.nomux"
     ];
+    blacklistedKernelModules = [
+    "uvcvideo"
+  		];
+
     kernelPackages = pkgs.linuxPackages_latest;
   };
 ################################
@@ -49,6 +53,12 @@ documentation.man.generateCaches = false;
  programs.niri.enable = true;
  programs.niri.package = pkgs.niri;
 ####################################
+{
+  boot.blacklistedKernelModules = [
+    "uvcvideo"
+  ];
+}
+
 
 
 }
