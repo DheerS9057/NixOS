@@ -53,12 +53,5 @@ documentation.man.generateCaches = false;
  programs.niri.enable = true;
  programs.niri.package = pkgs.niri;
 ####################################
-{
-  boot.blacklistedKernelModules = [
-    "uvcvideo"
-  ];
-}
-
-
 
 }
