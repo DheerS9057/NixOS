@@ -81,7 +81,7 @@ hardware.bluetooth = {
   };
 ###########################################
   services.mysql = {
-    enable = true;
+    enable = false;
     package = pkgs.mariadb; 
    # initialDatabases = [ { name = "train_reservation"; } ];  # Auto-creates DB
 
