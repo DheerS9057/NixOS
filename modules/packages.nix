@@ -34,7 +34,6 @@
     proprietaryCodecs = true;
   };
     fish.enable = true;
-  };
 
 
  };
