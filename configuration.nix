@@ -17,16 +17,12 @@
     loader.timeout = 1; 
     kernelParams = [
       "acpi_osi=\"Windows 2018.2\""
-      "acpi_os_name=\"Windows 2018\""
-      "ec_no_wakeup=1"
-      "udev.log_level=3"
       "nowatchdog"
-      #"i915.force_probe=46a3"
+      "i915.force_probe=46a3"
       "rcutree.enable_rcu_lazy=1"
       "i8042.nomux"
     ];
     blacklistedKernelModules = [
-    "uvcvideo"
   		];
 
     kernelPackages = pkgs.linuxPackages_latest;
