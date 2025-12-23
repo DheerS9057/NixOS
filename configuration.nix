@@ -23,6 +23,8 @@
       "i8042.nomux"
     ];
     blacklistedKernelModules = [
+    	nove_core
+	nouveau
   		];
 
     kernelPackages = pkgs.linuxPackages_latest;
