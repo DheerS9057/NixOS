@@ -24,7 +24,7 @@
       nautilus
       gvfs
       wev
-vivaldi-ffmpeg-codecs
+      #vivaldi-ffmpeg-codecs
 
   ];
 }
