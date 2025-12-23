@@ -29,6 +29,10 @@
       ];
     };
     fish.enable = true;
+    programs.chromium = {
+    enable = true;
+    proprietaryCodecs = true;
+  };
 
 
  };
