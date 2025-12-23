@@ -23,7 +23,7 @@
       "i8042.nomux"
     ];
     blacklistedKernelModules = [
-    	nove_core
+    	nova_core
 	nouveau
   		];
 
