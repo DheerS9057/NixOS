@@ -27,11 +27,13 @@
           gvfs
           xfce.tumbler
       ];
+
     };
-    fish.enable = true;
-    programs.chromium = {
+    chromium = {
     enable = true;
     proprietaryCodecs = true;
+  };
+    fish.enable = true;
   };
 
 
