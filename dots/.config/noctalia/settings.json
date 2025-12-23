@@ -111,6 +111,9 @@
                     "id": "Brightness"
                 },
                 {
+                    "id": "NightLight"
+                },
+                {
                     "displayMode": "onhover",
                     "id": "Bluetooth"
                 },
@@ -290,8 +293,8 @@
     "nightLight": {
         "autoSchedule": true,
         "dayTemp": "6500",
-        "enabled": false,
-        "forced": false,
+        "enabled": true,
+        "forced": true,
         "manualSunrise": "06:30",
         "manualSunset": "18:30",
         "nightTemp": "4000"
