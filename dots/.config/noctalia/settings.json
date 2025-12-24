@@ -20,7 +20,7 @@
         ],
         "preferredPlayer": "",
         "visualizerQuality": "high",
-        "visualizerType": "linear",
+        "visualizerType": "mirrored",
         "volumeOverdrive": false,
         "volumeStep": 5
     },
@@ -293,11 +293,11 @@
     "nightLight": {
         "autoSchedule": true,
         "dayTemp": "6500",
-        "enabled": true,
-        "forced": true,
+        "enabled": false,
+        "forced": false,
         "manualSunrise": "06:30",
         "manualSunset": "18:30",
-        "nightTemp": "4000"
+        "nightTemp": "4906"
     },
     "notifications": {
         "backgroundOpacity": 1,

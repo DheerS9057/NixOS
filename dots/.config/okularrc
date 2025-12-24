@@ -1,5 +1,5 @@
 [Desktop Entry]
-FullScreen=false
+FullScreen=true
 shouldShowMenuBarComingFromFullScreen=true
 shouldShowToolBarComingFromFullScreen=false
 
@@ -11,24 +11,26 @@ ShowSidebar=false
 MenuBar=Disabled
 
 [Recent Files]
-File1[$e]=$HOME/Downloads/BITSAT-2026.pdf
-File2[$e]=$HOME/2025-12-16-142317_hyprshot.png
-File3[$e]=$HOME/Documents/Notes/Sets and Relations Notes (MathonGo).pdf
-File4[$e]=$HOME/Downloads/CS PB.pdf
-File5[$e]=$HOME/Documents/Extra/irodocv-solutions.pdf
-File6[$e]=trash:///Screenshot from 2025-12-20 10-22-55.png
-File7[$e]=$HOME/Documents/Mains Priority Order.pdf
-File8[$e]=$HOME/Downloads/NCERT Highlighted - Coordination Compounds (MathonGo).pdf
-File9[$e]=$HOME/Downloads/Handwritten Notes - Coordination Compounds (MathonGo).pdf
-Name1[$e]=BITSAT-2026.pdf
-Name2[$e]=2025-12-16-142317_hyprshot.png
-Name3[$e]=Sets and Relations Notes (MathonGo).pdf
-Name4[$e]=CS PB.pdf
-Name5[$e]=irodocv-solutions.pdf
-Name6[$e]=Screenshot from 2025-12-20 10-22-55.png
-Name7[$e]=Mains Priority Order.pdf
-Name8[$e]=NCERT Highlighted - Coordination Compounds (MathonGo).pdf
-Name9[$e]=Handwritten Notes - Coordination Compounds (MathonGo).pdf
+File1[$e]=$HOME/Downloads/CS PB.pdf
+File10[$e]=$HOME/Documents/Mains Priority Order.pdf
+File2[$e]=$HOME/Documents/Extra/irodocv-solutions.pdf
+File3[$e]=trash:///Screenshot from 2025-12-20 10-22-55.png
+File4[$e]=$HOME/Downloads/NCERT Highlighted - Coordination Compounds (MathonGo).pdf
+File5[$e]=$HOME/Downloads/Handwritten Notes - Coordination Compounds (MathonGo).pdf
+File6[$e]=$HOME/Documents/NCERTs/d and f Block - Highlighted NCERT (copy 1).pdf
+File7[$e]=$HOME/Downloads/Biomolecules Notes - MathonGo.pdf
+File8[$e]=$HOME/Documents/Biomolecules Notes - MathonGo.pdf
+File9[$e]=$HOME/Documents/NCERTs/Coordination Compounds.pdf
+Name1[$e]=CS PB.pdf
+Name10[$e]=Mains Priority Order.pdf
+Name2[$e]=irodocv-solutions.pdf
+Name3[$e]=Screenshot from 2025-12-20 10-22-55.png
+Name4[$e]=NCERT Highlighted - Coordination Compounds (MathonGo).pdf
+Name5[$e]=Handwritten Notes - Coordination Compounds (MathonGo).pdf
+Name6[$e]=d and f Block - Highlighted NCERT (copy 1).pdf
+Name7[$e]=Biomolecules Notes - MathonGo.pdf
+Name8[$e]=Biomolecules Notes - MathonGo.pdf
+Name9[$e]=Coordination Compounds.pdf
 
 [UiSettings]
 ColorScheme=noctalia
